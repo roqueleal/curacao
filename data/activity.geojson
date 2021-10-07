@@ -1,0 +1,7 @@
+{
+    "type": "FeatureCollection",
+
+    "features": [
+        { "type": "Feature", "id": 0, "properties": { "NAME": "Klein Curaçao", "TEL": "(212) 514-3700", "URL": "http:\/\/www.oldnycustomhouse.gov\/", "ADRESS1": "1 Bowling Grn", "ADDRESS2": null, "CITY": "New York", "ZIP": 10004.0 }, "geometry": { "type": "Point", "coordinates": [-68.643225, 11.989767] } }
+    ]
+}

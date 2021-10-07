@@ -1,0 +1,9 @@
+{
+    "type": "FeatureCollection",
+
+    "features": [
+        { "type": "Feature", "id": 0, "properties": { "NAME": "Playa Forti", "TEL": "(212) 352-3101", "URL": "https://showmecaribbean.com/curacao/3dvista/playaforti", "ADDRESS1": "354 West 45th Street", "ADDRES2": null, "CITY": "New York", "Photo": "https://dataviz-pro.github.io/datavisualization/img/gallery/forti.jpg", "ZIP": 10036.0 }, "geometry": { "type": "Point", "coordinates": [-69.1534772, 12.3665239] } },
+        { "type": "Feature", "id": 1, "properties": { "NAME": "Barbara Beach", "TEL": "(800) 775-1617", "URL": "http:\/\/www.bestofoffbroadway.com\/beachs\/47streettheatre.html", "ADDRESS1": "304 West 47th Street", "ADDRES2": null, "CITY": "New York", "ZIP": 10036.0 }, "geometry": { "type": "Point", "coordinates": [-68.852244, 12.066786] } }
+
+    ]
+}
