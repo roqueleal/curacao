@@ -284,7 +284,7 @@ var beachs = L.geoJson(null, {
         }
     }
 });
-$.getJSON("data/beachs.geojson", function(data) {
+$.getJSON("https://raw.githubusercontent.com/roqueleal/curacao/main/data/beachs.geojson", function(data) {
     beachs.addData(data);
     map.addLayer(beachLayer);
 });
@@ -295,7 +295,7 @@ var activity = L.geoJson(null, {
     pointToLayer: function(feature, latlng) {
         return L.marker(latlng, {
             icon: L.icon({
-                iconUrl: "assets/img/ACTION_1.svg",
+                iconUrl: "https://roqueleal.me/curacao/assets/img/ACTION_1.svg",
                 iconSize: [24, 28],
                 iconAnchor: [12, 28],
                 popupAnchor: [0, -25]
@@ -327,7 +327,7 @@ var activity = L.geoJson(null, {
         }
     }
 });
-$.getJSON("data/activity.geojson", function(data) {
+$.getJSON("https://raw.githubusercontent.com/roqueleal/curacao/main/data/activity.geojson", function(data) {
     activity.addData(data);
 });
 
